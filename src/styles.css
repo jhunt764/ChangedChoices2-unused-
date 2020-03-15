@@ -1,0 +1,32 @@
+
+      #top-photo{
+            width:100%;
+            /* filter: blur(2px); */
+            
+        
+    }
+
+.navbar-brand{
+    height: 80px;
+    width: auto;
+}
+.nav{
+   overflow: hidden;
+}
+
+.getting-started{
+        display: block;
+    }
+
+@media screen and (max-width:644px){
+    .getting-started{
+        display:none;
+    }
+    #top-photo{
+        height:96vh;
+    }
+
+    body{
+        overflow: hidden;
+    }
+}
